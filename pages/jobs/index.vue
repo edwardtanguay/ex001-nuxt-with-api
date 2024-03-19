@@ -10,8 +10,8 @@ import { appStore } from "~/stores/AppStore";
 		</h2>
 		<ul>
 			<li v-for="frontendJob in appStore.frontendJobs">
-				<span class="font-semibold">{{ frontendJob.title }}</span> -
-				{{ frontendJob.company }} ({{ frontendJob.url }})
+				<span class="font-semibold"><a :href="frontendJob.url" target="_blank" class="underline">{{ frontendJob.title }}</a></span> -
+				{{ frontendJob.company }} 
 			</li>
 		</ul>
 	</div>

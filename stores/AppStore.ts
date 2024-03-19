@@ -14,7 +14,7 @@ export const appStore = defineStore("appStore", {
 	state: (): AppStore => ({
 		skills: [],
 		notes: ["note one", "note two", "note three"],
-		appMessage: "this is the default app message",
+		appMessage: "Welcome to this site. It is a demonstration of a Nuxt site running online at Vercel and Hetzner with its own API.",
 		frontendJobs: [],
 	}),
 	getters: {

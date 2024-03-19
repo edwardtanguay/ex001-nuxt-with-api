@@ -2,5 +2,5 @@
 import { appStore } from "~/stores/AppStore";
 </script>
 <template>
-	<p class="mt-4">appMessage: {{ appStore.appMessage }}</p>
+	<p class="mt-4">{{ appStore.appMessage }}</p>
 </template>
