@@ -7,7 +7,7 @@ appStore.fill();
 <template>
 	<Html>
 		<Head>
-			<Title>Nuxt Learning Showcase</Title>
+			<Title>Nuxt with API</Title>
 		</Head>
 	</Html>
 	<Header />
